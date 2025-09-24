@@ -2,7 +2,7 @@
 Host, participate and explore!
 
 > [!IMPORTANT]
-> Meetiade is a university project, currently under heavy development, and shound not considered as a stable product.
+> Meetiade is a university project, currently under heavy development, and shound not be considered as a stable product.
 
 ## Installation
 ### Manual
