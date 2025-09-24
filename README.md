@@ -9,8 +9,6 @@ Host, participate and explore!
 ```bash
 git clone https://github.com/markosyiakoumis/meetiade.git
 cd meetiade
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python src/manage.py runserver
+echo -e "DB_USER=example_user\nDB_PASSWORD=example_password" > .env
+docker compose up -d
 ```
