@@ -9,6 +9,6 @@ Host, participate and explore!
 ```bash
 git clone https://github.com/markosyiakoumis/meetiade.git
 cd meetiade
-echo -e "DB_USER=example_user\nDB_PASSWORD=example_password" > .env
+cp .env.example .env
 docker compose up -d
 ```
